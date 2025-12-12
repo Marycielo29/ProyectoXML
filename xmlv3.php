@@ -1,5 +1,10 @@
 <?php
+
+
+
 $xml = simplexml_load_file('ies_db.xml') or die ('ERROR: NO SE CARGO EL XML. ESCRIBE CORRECTAMENTE EL NOMBRE DEL ARCHIVO');
+
+
 
 //ACCEDER A LOS ELEMENTOS
 //echo $xml->pe_1->nombre."<br>"; 
